@@ -14,9 +14,11 @@ Go to [Demo page](https://alexxnb.github.io/mdi-svelte/demo/dist/index.html).
 
 The example below uses the `@mdi/js` package which contains all the MDI icon's path data.
 
-```javascript
-import Icon from 'mdi-svelte';
-import { mdiCardsSpade } from '@mdi/js';
+```html
+<script>
+    import Icon from 'mdi-svelte';
+    import { mdiCardsSpade } from '@mdi/js';
+</script>
 
 <Icon path={mdiCardsSpade} color="black" />
 ```

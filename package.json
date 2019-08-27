@@ -1,7 +1,7 @@
 {
   "name": "mdi-svelte",
-  "version": "1.0.1",
-  "svelte": "src/index.svelte",
+  "version": "1.0.2",
+  "svelte": "src/Index.svelte",
   "module": "index.mjs",
   "main": "index.js",
   "scripts": {
