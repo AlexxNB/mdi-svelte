@@ -6,6 +6,10 @@ Using [Material Design Icons](https://materialdesignicons.com/) in your Svelte p
 npm install mdi-svelte --save-dev
 ```
 
+## Demo
+
+Go to [Demo page](https://alexxnb.github.io/mdi-svelte/demo/dist/index.html).
+
 ## Usage
 
 The example below uses the `@mdi/js` package which contains all the MDI icon's path data.
@@ -19,7 +23,8 @@ import { mdiCardsSpade } from '@mdi/js';
         horizontal
         vertical
         rotate={90}
-        color="red"/>
+        color="red"
+/>
 ```
 
 ## Props
@@ -33,6 +38,7 @@ import { mdiCardsSpade } from '@mdi/js';
 | rotate      | number         | `0 `     | degrees `-360` to `360` |
 | color       | string         | color of the text   | `rgb()` / `rgba()` / `#000` |
 | spin        | bool, number   | `false`  | `true` = `2s`, `-2` counterclockwise, `{spin}s` |
+
 
 ## Inspiration
 
