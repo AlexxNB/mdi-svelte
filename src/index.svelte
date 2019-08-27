@@ -6,13 +6,14 @@
   export let rotate = 0;
   export let spin = false;
 
+ 
   // SPIN properties
   const inverse = (typeof spin !== "boolean" && spin < 0) ? true : false;
   const spintime = Math.abs(spin === true ? 2 : spin);
   const spinfunc = inverse ? 'spin-inverse' : 'spin';
 
-
-
+  // size
+  if(Number(size)) size = Number(size);
   
   const getStyles = () => {
       const transform = [];
@@ -49,8 +50,6 @@
         return `${cur} ${item[0]}:${item[1]};`;
       },'');
   }
-
-  console.log(getStyles());
 </script>
 
 
