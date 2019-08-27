@@ -12,6 +12,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "microlight": "0.0.7",
     "sirv-cli": "^0.4.4"
   },
   "scripts": {
