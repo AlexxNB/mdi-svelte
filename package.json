@@ -1,6 +1,6 @@
 {
   "name": "mdi-svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "index.mjs",
     "index.js"
   ],
-  "description": "Using [Material Design Icons](https://materialdesignicons.com/) in your Svelte projects.",
+  "description": "Using Material Design Icons in your Svelte projects.",
   "dependencies": {},
   "repository": {
     "type": "git",

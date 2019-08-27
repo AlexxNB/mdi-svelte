@@ -18,15 +18,9 @@ The example below uses the `@mdi/js` package which contains all the MDI icon's p
 import Icon from 'mdi-svelte';
 import { mdiCardsSpade } from '@mdi/js';
 
-<Icon path={mdiCardsSpade}
-        size={1}
-        horizontal
-        vertical
-        rotate={90}
-        color="red"
-/>
+<Icon path={mdiCardsSpade} color="black" />
 ```
-
+>You can find icons names at [materialdesignicons.com](https://materialdesignicons.com)
 ## Props
 
 
