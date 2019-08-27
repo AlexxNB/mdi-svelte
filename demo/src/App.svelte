@@ -17,6 +17,8 @@
 	padding:0;
 	margin:0;
 	background-color: #FFFFFF;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .container{
@@ -24,15 +26,11 @@
 	margin: 0px auto;
 }
 
-h1,h2,h3 {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1,h2 {
 	margin:0;
 }
 h2{
 	color:#aaaaaa;
-}
-h3{
-	margin-top: 2rem;
 }
 </style>
 
