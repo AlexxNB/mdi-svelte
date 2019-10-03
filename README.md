@@ -8,7 +8,7 @@ npm install mdi-svelte --save-dev
 
 ## Demo
 
-Go to [Demo page](https://alexxnb.github.io/mdi-svelte/demo/dist/index.html).
+Go to [Demo page](https://alexxnb.github.io/mdi-svelte/).
 
 ## Usage
 
