@@ -1,6 +1,6 @@
 {
   "name": "mdi-svelte",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "svelte": "src/Index.svelte",
   "module": "index.mjs",
   "main": "index.js",
