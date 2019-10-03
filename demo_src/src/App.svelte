@@ -1,6 +1,6 @@
 <script>
 	import Example from './Example.svelte';
-	import Icon from './../../src/index.svelte';
+	import Icon from './../../src/Index.svelte';
 	import { mdiCards } from '@mdi/js';
 	import { mdiCardsSpade } from '@mdi/js';
 	import { mdiCardsClub } from '@mdi/js';
@@ -61,7 +61,7 @@ h2{
 	`}>
 		<div slot="header">Basic usage</div>
 		<div slot="showcase">
-			<Icon path={mdiCardsSpade}/>
+			<Icon path={mdiCardsSpade} />
 			<Icon path={mdiCardsClub}/>
 			<Icon path={mdiCardsDiamond}/>
 			<Icon path={mdiCardsHeart}/>

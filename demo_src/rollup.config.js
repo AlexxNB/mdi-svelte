@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 import staticSite from 'rollup-plugin-static-site';
 
 const production = !process.env.ROLLUP_WATCH;
-const targetDir = production ? 'dist' : '__dev'
+const targetDir = 'public'
 
 export default {
 	input: 'src/main.js',

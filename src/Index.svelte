@@ -8,9 +8,9 @@
 
  
   // SPIN properties
-  const inverse = (typeof spin !== "boolean" && spin < 0) ? true : false;
-  const spintime = Math.abs(spin === true ? 2 : spin);
-  const spinfunc = inverse ? 'spin-inverse' : 'spin';
+  $: inverse = (typeof spin !== "boolean" && spin < 0) ? true : false;
+  $: spintime = Math.abs(spin === true ? 2 : spin);
+  $: spinfunc = inverse ? 'spin-inverse' : 'spin';
 
   // size
   if(Number(size)) size = Number(size);
@@ -50,10 +50,12 @@
         return `${cur} ${item[0]}:${item[1]};`;
       },'');
   }
+
+  $: style = getStyles(size,color,flip,rotate);
 </script>
 
 
-<svg viewBox="0 0 24 24" style={getStyles()}>
+<svg viewBox="0 0 24 24" {style}>
 {#if spin !== false}
   {#if inverse}
     <style>@keyframes spin-inverse { to { transform: rotate(-360deg) } }</style>
