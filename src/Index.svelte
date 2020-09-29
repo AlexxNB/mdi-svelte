@@ -56,7 +56,7 @@
 
 
 <svg viewBox="0 0 24 24" {style}>
-  <title>{title}</title>
+{#if title}<title>{title}</title>{/if}
 {#if spin !== false}
   {#if inverse}
     <style>@keyframes spin-inverse { to { transform: rotate(-360deg) } }</style>
