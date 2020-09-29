@@ -5,7 +5,7 @@
   export let flip = null;
   export let rotate = 0;
   export let spin = false;
-
+  export let title = '';
  
   // SPIN properties
   $: inverse = (typeof spin !== "boolean" && spin < 0) ? true : false;
@@ -56,6 +56,7 @@
 
 
 <svg viewBox="0 0 24 24" {style}>
+{#if title}<title>{title}</title>{/if}
 {#if spin !== false}
   {#if inverse}
     <style>@keyframes spin-inverse { to { transform: rotate(-360deg) } }</style>
