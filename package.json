@@ -4,6 +4,7 @@
   "svelte": "src/Index.svelte",
   "module": "index.mjs",
   "main": "index.js",
+  "types": "./mdi-svelte.d.ts",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build",
